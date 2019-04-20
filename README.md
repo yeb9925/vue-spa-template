@@ -1,4 +1,4 @@
-# Vue SPA Template
+# Single Page App (Vue) Template
 Single Page App template built with Vue
 
 ## Quick Start
