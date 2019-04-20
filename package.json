@@ -1,0 +1,41 @@
+{
+  "name": "we-chat",
+  "version": "1.0.0",
+  "description": "Messaging app integrating Kakao and Slack APIs",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "npm run build-watch & nodemon server",
+    "build-watch": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeb9925/we-chat.git"
+  },
+  "author": "Tim Han & Hyunjoo Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeb9925/we-chat/issues"
+  },
+  "homepage": "https://github.com/yeb9925/we-chat#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.1",
+    "body-parser": "^1.18.3",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "socket.io": "^2.2.0",
+    "vue": "^2.6.9",
+    "vue-loader": "^14.2.4",
+    "vue-router": "^3.0.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
