@@ -6,7 +6,6 @@ const bodyParser = require('body-parser')
 const path = require('path')
 
 const { PORT } = require('../config')
-const socketio = require('socket.io')
 
 // Body-parsing Middleware
 app.use(bodyParser.json())
@@ -30,6 +29,3 @@ app.use((err, req, res, next) => {
 const server = app.listen(PORT, () => {
   console.log(`Server now listening on port: ${PORT}`)
 });
-
-const io = socketio(server)
-require('./socket')(io)
