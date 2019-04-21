@@ -1,7 +1,7 @@
 {
-  "name": "we-chat",
+  "name": "vue-spa-template",
   "version": "1.0.0",
-  "description": "Messaging app integrating Kakao and Slack APIs",
+  "description": "Single Page App (Vue) Template",
   "main": "server/index.js",
   "scripts": {
     "start": "npm run build-watch & nodemon server",
@@ -10,25 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yeb9925/we-chat.git"
+    "url": "git+https://github.com/yeb9925/vue-spa-template.git"
   },
-  "author": "Tim Han & Hyunjoo Kim",
+  "author": "Tim Han",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yeb9925/we-chat/issues"
+    "url": "https://github.com/yeb9925/vue-spa-template/issues"
   },
-  "homepage": "https://github.com/yeb9925/we-chat#readme",
+  "homepage": "https://github.com/yeb9925/vue-spa-template#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "babel-loader": "^8.0.1",
     "body-parser": "^1.18.3",
     "css-loader": "^0.28.11",
-    "express": "^4.16.4",
     "html-webpack-plugin": "^3.2.0",
     "socket.io": "^2.2.0",
-    "vue": "^2.6.9",
-    "vue-loader": "^14.2.4",
     "vue-router": "^3.0.2",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.5.16",
@@ -36,6 +33,10 @@
     "webpack-cli": "^3.0.2"
   },
   "dependencies": {
-    "nodemon": "^1.18.10"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "vue": "^2.6.9",
+    "vue-loader": "^14.2.4",
+    "vue-scrollto": "^2.15.0"
   }
 }
